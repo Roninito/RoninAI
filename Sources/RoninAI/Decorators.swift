@@ -8,7 +8,7 @@
 import Foundation
 
 
-public class DecoratingBehavior: Behavior {
+open class DecoratingBehavior: Behavior {
 	
 	public init(name: String) {
 		super.init(name: name, category: .decorator)
